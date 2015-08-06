@@ -464,7 +464,7 @@ foreach (@IP_watchlist_array) {
 my $ourCountryCode = "US";
 
 ### This array contains the successful logins OR BlockCountryChange events from outside our country. 
-my @outsideCountry = "\n___ Successful Logins Outside Outside $ourCountryCode ___";
+my @outsideCountry = "\n___ Successful Logins Outside $ourCountryCode ___";
 
 ### This foreach-loop iterates through the EZProxy audit log of events to identify successful login 
 ### events from outside our country. 
